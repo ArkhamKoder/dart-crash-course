@@ -41,3 +41,32 @@
         print(age *= 2); // 30
         print(age += 2); // 32
         print(age &= 2); // 2
+
+    Optionality?
+        Is the ability for a variable to either contain a value of a particular data type or not
+
+        String? name  = null;
+        name = "John";
+
+        If no datatype is specified dart will treat the variable a dynamic datatype.
+
+        Null aware compound assignment operator (??=)
+
+            String? lastName;
+            lastName ??= 'Bar';
+            // Assign the value of the LHS to the variable only if the variable is nullable.
+
+        Null Aware Operator (?)
+            To access the properties of optional variables
+
+            String? nullName;
+            print(nullName ?? 'Foo'); // 'Foo'.
+
+        Nullable Collections
+
+            List<String>? names; // could either be null or contain a list of strings.
+
+            List<String?>? names; // could be null or contain a list of nullable strings.
+
+            
+
