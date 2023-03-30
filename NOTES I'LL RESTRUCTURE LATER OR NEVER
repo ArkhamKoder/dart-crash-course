@@ -1,1 +1,35 @@
-Test
+3/30/2023
+
+ NOTES:
+
+    In the analysis_options.yaml theres a linter rule to always specify types or camel case.
+
+    Truncating divison ~/ rounds off to an interger
+
+    Unary prefix operators (before value)
+        print(--age);
+        print(!true);
+        print(++age);
+        const variables can't be mutated in unary
+        modified the value and returns the result 
+
+    Unary bitwise completement prefix operator
+        print(~1);
+
+    Unary postfix operator(after value)
+        returns the value first then modifies it
+        print(age++);
+        print(age--);
+
+    Binary infix(inbetween values)
+        age + age1
+        age != age1
+        age == age1
+        age % age1
+        Euclidean module(remainder) %
+
+    Bitwise infix operators
+              
+
+
+
