@@ -29,7 +29,15 @@
         Euclidean module(remainder) %
 
     Bitwise infix operators
-              
-
-
-
+        print(age & 20) // bitwise AND 
+        print(age | 20) // bitwise OR
+        print(age ^ 20) // bitwise XOR
+        print(age << 20) // bitwise left shift
+        print(age >> 20) // bitwsie right shift
+    Compound assignment operators
+        age = 20;
+        print(age = 30) => 30
+        print(age ~/= 2) => 15 (truncating division)
+        print(age *= 2); // 30
+        print(age += 2); // 32
+        print(age &= 2); // 2
