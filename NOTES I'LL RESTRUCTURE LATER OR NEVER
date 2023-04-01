@@ -43,7 +43,7 @@
         print(age &= 2); // 2
 
     Optionality?
-        Is the ability for a variable to either contain a value of a particular data type or not
+        Is the ability for a variable to either contain a value of a particular data type or be null
 
         String? name  = null;
         name = "John";
@@ -67,6 +67,18 @@
             List<String>? names; // could either be null or contain a list of strings.
 
             List<String?>? names; // could be null or contain a list of nullable strings.
+
+4/1/2023
+	NOTES:
+
+        Late Keyword (late)
+            Late variables are initialized when they are first used
+
+
+
+
+	
+	
 
             
 
