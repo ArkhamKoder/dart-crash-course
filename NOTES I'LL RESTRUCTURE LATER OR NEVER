@@ -73,6 +73,27 @@
 
         Late Keyword (late)
             Late variables are initialized when they are first used
+            ===============================
+            void main(){
+                print('Before');
+                late String name = provideName();
+                print('After');
+                print('name')
+            }
+
+            String provideName(){
+                print('Function is called');
+                return 'Foo Bar'
+            }
+
+            Output:
+            >> Before
+            >> After
+            >> Function is called
+            >> Foo Bar
+            ===============================
+
+            Late final will be initialized when they are used and can nit be reaasigned.
 
 
 
