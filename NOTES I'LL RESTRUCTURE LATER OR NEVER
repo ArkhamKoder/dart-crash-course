@@ -95,12 +95,67 @@
 
             Late final will be initialized when they are used and can not be reaasigned.
 
-5/1/2023
+4/2/2023
 	NOTES:
 
         Functions
+            Endeavour to specify the return type of your functions.
 
+            If no specified return type, the function type is null (dynamic)
+
+        Named Parameter ({Keyword name})
+
+            void main(List<String> args) {
+                sayHelloTo();
+                sayHelloTo(name: null);
+                sayHelloTo(name: 'Foo');
+                }
+
+            void sayHelloTo({String? name}) {
+                print('Hello, $name!');
+                }
+
+            Named parameters must have a default value or be optional.
+
+        Required Named Parameters (required)
+
+            Use keyword 'required' to ensure a parameter is given a value in the callsite.
+
+            Required named  parameters can be optional but cannot have a defailt value.
+
+        Positional arguments
+
+          *  They are passed in order.
+          *  They don't have names associated with them at callsite.
+          *  They are always required.
+          *  They can't have default values
+
+        Optional positional parameters ([])
+             ===========================
+
+             void main(List<String> args) {
+                makeUpperCase();
+                makeUpperCase(null);
+                makeUpperCase('Foo');
+                makeUpperCase('Foo', 'Bar');
+                 // makeUpperCase('Foo', null);
+                makeUpperCase(null, 'Bar');
+                }
+
+            void makeUpperCase([
+                String? name,
+                String lastName = 'Bar',
+                ]) {
+                print(name?.toUpperCase());
+                print(lastName.toUpperCase());
+                }
+            ============================
         
+
+
+
+
+
 
 
 
