@@ -93,7 +93,17 @@
             >> Foo Bar
             ===============================
 
-            Late final will be initialized when they are used and can nit be reaasigned.
+            Late final will be initialized when they are used and can not be reaasigned.
+
+5/1/2023
+	NOTES:
+
+        Functions
+
+        
+
+
+
 
 
 
