@@ -73,7 +73,7 @@
 
         Late Keyword (late)
             Late variables are initialized when they are first used
-            ===============================
+            =============================
             void main(){
                 print('Before');
                 late String name = provideName();
@@ -91,7 +91,7 @@
             >> After
             >> Function is called
             >> Foo Bar
-            ===============================
+            =============================
 
             Late final will be initialized when they are used and can not be reaasigned.
 
@@ -154,6 +154,46 @@
 4/3/2023
 	NOTES:
         Control flow
+            * if, else if, else.
+            For loops (traditional)
+            ============================
+                const names = ['Foo', 'Bar', 'Baz', 'Qux'];
+
+                for (var i = 0; i < length> ; i++) {
+                    print(names[i]);
+                }
+
+                for (var i = names.length - 1, i >= 0 , i--) {
+                    print(names[i]);
+                }
+            ============================
+
+            For loops (modern)
+                for (final name in names){
+                    print(names);
+                }
+
+            While loops
+            =============================
+                const names = ['John', 'Paul', 'George', 'Ringo'];
+                var counter = 0;
+
+                while (counter < names.length) {
+                    print(names[counter]);
+                    counter++;  
+                }
+            =============================
+
+            do While loop
+            =============================
+                counter = 0;
+                    do {
+                        print(names[counter++]);
+                        } while (counter < names.length);
+
+            =============================
+             
+
 
 
 

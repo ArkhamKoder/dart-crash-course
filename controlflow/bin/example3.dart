@@ -1,4 +1,4 @@
-void main(List<String> args) {
+  void main(List<String> args) {
   const names = ['Foo', 'Bar', 'Baz', 'Qux'];
   for (final name in names) {
     print(name);
