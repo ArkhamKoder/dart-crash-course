@@ -1,3 +1,5 @@
+import 'dart:html';
+
 void main(List<String> args) {
   const info = {
     'name': 'John',

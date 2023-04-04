@@ -14,4 +14,12 @@ void main(List<String> args) {
   for (var i = 0; i < names.length; i += 2) {
     print(names[i]);
   }
+  print("-------------------");
+  for (var i = 0; i < names.length; i++) {
+    if (names[i] == 'Bar') {
+      continue;
+    } else {
+      print(names[i]);
+    }
+  }
 }

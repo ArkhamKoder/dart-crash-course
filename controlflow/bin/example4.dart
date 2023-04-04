@@ -5,7 +5,13 @@ void main(List<String> args) {
     print(names[counter++]);
     // counter++;
   }
-
+  print("------------------");
+  counter = names.length - 1;
+  print(counter);
+  while (counter >= 0) {
+    print(names[counter]);
+    counter = counter - 1;
+  }
   print("------------------");
 
   counter = -1;
@@ -20,14 +26,14 @@ void main(List<String> args) {
     print(names[counter]);
   }
 
-  print("------------------");
+  print("--------do whiles----------");
 
   counter = 0;
   do {
     print(names[counter++]);
   } while (counter < names.length);
 
-  print("------------------");
+  print("---------do whiles---------");
 
   counter = 0;
   do {
