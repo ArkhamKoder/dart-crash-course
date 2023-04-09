@@ -247,6 +247,16 @@
             =================================
             ['Foo', 'Bar', 'Baz', 'Qux'].map((str) => str.length); 
 
+4/9/2023
+    NOTES:
+    Collections:
+        Sets ({}):
+            A duplicate value cannot be appended to sets.
+            Spread operator (...)
+            
+
+
+
 
 
 
