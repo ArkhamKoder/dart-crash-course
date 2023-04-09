@@ -250,10 +250,28 @@
 4/9/2023
     NOTES:
     Collections:
-        Sets ({}):
+        Sets {}:
             A duplicate value cannot be appended to sets.
-            Spread operator (...)
-            
+        Spread operator (...)
+            Extract every value in a collection and puts them in another of the same or different type of collection.
+        Hashcode(.hashCode)
+            determines if a value can appear more than once in a set.
+
+        Maps {}:
+            Maps are key-value collections.
+            Adding keys to Maps if it doesn't exist
+                var info = {}
+                info.putIfAbsent ('keyName' () => 'value');
+            Iterating through a Map
+                for (final entry in info.entries){
+                    print(entry.key);
+                    print(entry.value);
+                }
+            Grabbing the value of a non-existent keys result  null
+
+
+
+
 
 
 
