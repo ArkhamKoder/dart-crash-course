@@ -269,7 +269,25 @@
                     print(entry.key);
                     print(entry.value);
                 }
-            Grabbing the value of a non-existent keys result  null
+            Grabbing the value of a non-existent keys result  null.
+
+4/9/2023
+    NOTES:
+    Collections:
+        Iterables:
+        These are lazily evaluated and generated lists.
+
+            ================
+            Check example5.dart in collections folder
+            ================
+        Unmodifiable List views:
+            (using collection package)
+            UnmodifiableListView(value);
+        Unmodifiable Map views:
+            (using collection package)
+            UnmodifiableMapView(value);
+        
+
 
 
 
