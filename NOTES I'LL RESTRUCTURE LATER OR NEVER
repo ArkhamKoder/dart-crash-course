@@ -256,6 +256,8 @@
             Extract every value in a collection and puts them in another of the same or different type of collection.
         Hashcode(.hashCode)
             determines if a value can appear more than once in a set.
+        Collection package :
+            SetEquality().equals(set1, set2);
 
         Maps {}:
             Maps are key-value collections.
