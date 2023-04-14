@@ -286,6 +286,8 @@
         Unmodifiable Map views:
             (using collection package)
             UnmodifiableMapView(value);
+        Synchronous generator:
+            retuns value for an iterable
         
 
 
