@@ -287,8 +287,14 @@
             (using collection package)
             UnmodifiableMapView(value);
         Synchronous generator:
-            retuns value for an iterable
+            returns value for an iterable.
         
+4/9/2023
+    NOTES:
+    Collections:
+        Safelist, Canonicalized map, bool list.
+        CombinedMapView... ListView... Iterables
+        mergegMaps
 
 
 
