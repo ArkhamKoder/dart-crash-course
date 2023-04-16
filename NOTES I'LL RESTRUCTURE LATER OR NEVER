@@ -296,6 +296,10 @@
         CombinedMapView... ListView... Iterables
         mergegMaps
 
+16/9/2023
+    NOTES:
+    Enumeration: allows you to create similar objects in one structure.
+
 
 
 
