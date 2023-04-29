@@ -337,3 +337,9 @@
     Dart Classes:
         These are blueprints of logic created in one place and can be used in other places.
     Changes made to Instance of a class does not affect the main blueprint
+
+    ========================
+    Class Person {
+
+    }
+    ========================
