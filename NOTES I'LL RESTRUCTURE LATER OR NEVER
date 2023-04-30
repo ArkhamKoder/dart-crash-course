@@ -343,3 +343,14 @@
 
     }
     ========================
+
+    ========================
+    Clss Person {
+        final string name;
+        final int age;
+
+        // constructor
+        Person({required this.name, required this.age});
+
+    }
+    ========================
