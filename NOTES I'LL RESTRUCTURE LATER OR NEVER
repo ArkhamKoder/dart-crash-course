@@ -345,12 +345,14 @@
     ========================
 
     ========================
-    Clss Person {
+    Class Person {
         final string name;
         final int age;
 
-        // constructor
+        // constructor: reuired named parameters
         Person({required this.name, required this.age});
 
     }
     ========================
+
+    Constructor with an initializer list

@@ -38,7 +38,7 @@ class Person {
     this.name,
     this.age,
   );
-
+  // constructor with an initializer list
   const Person.foo()
       : name = 'Foo',
         age = 20;
@@ -46,7 +46,7 @@ class Person {
   const Person.bar(
     this.age,
   ) : name = 'Bar';
-
+  // optional named constructor
   const Person.other({
     String? name,
     int? age,
